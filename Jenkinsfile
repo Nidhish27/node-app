@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: params.BRANCH, url: 'https://github.com/<your-username>/node-app.git'
+                git branch: params.BRANCH, url: 'https://github.com/Nidhish27/node-app.git'
             }
         }
 
